@@ -1,1 +1,1 @@
-Go to the How To branch for info on how to get started(it is the button in the top left that says main for PC, on Mobile it is just the button that says main to the left and says change on the right) The main page will be used for trouble shooting help
+For the installation guide, navigate to the "How-To" branch (the button in the top left that says "main" for PC. On mobile, it is just the button that says "main" to the left and says "change" on the right). The main page will be used for troubleshooting.
