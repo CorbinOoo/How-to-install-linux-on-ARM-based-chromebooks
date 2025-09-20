@@ -10,6 +10,9 @@ The username is "linux" and the password is "changeme". For some reason, you can
 <p>Step 9. type "sudo wipefs -a /dev/*****enter either "mmcblk0" or "mmcblk1" depending on what lsblk said*****" example: "sudo wipefs -a /dev/mmcblk1" (**CAUTION, THIS WILL WIPE YOUR CHROME OS, WHICH IS NOT REVERSABLE**).</p>
 <p>Step 10. enter "sudo dd if=/dev/sda of=/dev/****type in what is says in in lsblk (your specific mmcblk will be in the spot on the photo that is circled****) bs=4M status=progress conv=fsync". This will copy the contents of the flash drive that is plugged into your Chromebook to the actual Chromebook's eMMC drive. With this command, I would recommend pressing Ctrl + C after 7 gigs have been copied, as this will go on forever (im not 100% sure on this). Once the copying has completed, you can turn off the computer by pressing the top right button that says "linux", then press power off.</p>
 <p>Step 11. Unplug the usb drive and turn on your computer, boot into linux with control + D ******DO NOT PRESS ENTER OR SPACE AS IT WILL BRICK YOUR CHROMEBOOK!!!******</p>
+<p>Step 12. Once booted into linux download pi apps with the guide in the Recommendations-for-your-new-OS tab on this repo</p>
+<p>Step 13. With pi apps installed download gparted and re allocate all the unalocated space to the rootpart as shown in the image <img src=></p>
+<p>Step 14. Delete the unknown kernal stuff on gparted(that is left over from chromeos</p>
 
 Congratulations! You have now completed your linux installation. Feel free to tweak the OS to your heart's desire.
 
